@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>欢迎 - TNT - 关于</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <!-- https://fonts.google.com/specimen/Roboto -->
+    <link th:href="@{~/css/fontawesome.min.css}" rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- https://fontawesome.com/ -->
+    <link th:href="@{~/css/bootstrap.min.css}" rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link th:href="@{~/css/templatemo-style.css}" rel="stylesheet" href="css/templatemo-style.css">
+    <link th:href="@{~/css/reset.css}" rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link th:href="@{~/css/thems.css}" rel="stylesheet" type="text/css" href="css/thems.css">
+    <link th:href="@{~/css/them.css}" rel="stylesheet" type="text/css" href="css/them.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <!-- https://fonts.google.com/specimen/Roboto -->
+    <link th:href="@{~/css/fontawesome.min.css}" rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- https://fontawesome.com/ -->
+    <link th:href="@{~/css/bootstrap.min.css}" rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link th:href="@{~/css/templatemo-style.css}" rel="stylesheet" href="css/templatemo-style.css">
+
+  </head>
+
+
+  <body id="reportsPage">
+    <div class="" id="home">
+      <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+          <a th:href="@{/goods/skip_home}" class="navbar-brand" href="home.html">
+            <h1 class="tm-site-title mb-0">TNT 有限公司</h1>
+          </a>
+          <button
+            class="navbar-toggler ml-auto mr-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars tm-nav-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto h-100">
+              <li class="nav-item">
+                <a th:href="@{/goods/skip_home}" class="nav-link" href="#">
+                  <i class="fas fa-tachometer-alt"></i>
+                  首页
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a th:href="@{/goods/findall_goods}" class="nav-link" href="products.html">
+                  <i class="fas fa-shopping-cart"></i>
+                  货物清单
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a th:href="@{/goods/skip_about}" class="nav-link active" href="about.html">
+                  <i class="far fa-user"></i>
+                  关于我们
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a th:href="@{/goods/skip_login}" class="nav-link d-block" href="/goods/skip_login">
+                  退出登录
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner banner_s" ><img th:src="@{~/img/banner_a.jpg}" src="img/banner_a.jpg" alt=""/></div>
+
+      <div class="scd_bg">
+        <div class="scd">
+          <div class="space_hx">&nbsp;</div>
+          <div class="about">
+            <dl class="clearfix">
+              <dt><img th:src="@{~/img/3.jpg}" src="img/3.jpg" alt=""/></dt>
+              <dd>本公司成立于2019年，主要倾向于军火仓库存储，还拥有在整个世界上排名第一位的军火库，叫做I KUN TNT仓库，它的占地总面积达到800平方千米。它里面规模非常巨大，拥有超过两千个碉堡，弹药种类繁多，有人估计，就算是真的打响第三次世界大战，这里面的弹药都用不完。公司通过CEC UL UDE KCC CCC等认证。主要客户来自欧美 日韩，主要产品BLACK STAR、FENDER、刀、枪、剑、戟、斧、钺、钩、叉、鞭、锏、锤、抓、镗、棍、槊、棒、拐、流星。
+              </dd></dl>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5"></div>
+      <div class="fn_bg">
+        <ul class="f_nav clearfix">
+          <li>
+            <a href="">
+              <img th:src="@{~/img/f_1.png}" src="img/f_1.png" alt=""/>
+              <span>联系我们</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img th:src="@{~/img/f_2.png}" src="img/f_2.png" alt=""/>
+              <span>社区论坛</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img th:src="@{~/img/f_3.png}" src="img/f_3.png" alt=""/>
+              <span>在线客户</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img th:src="@{~/img/f_4.png}" src="img/f_4.png" alt=""/>
+              <span>关注我们</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img th:src="@{~/img/f_5.png}" src="img/f_5.png" alt=""/>
+              <span>一键分享</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <footer class="tm-footer row tm-mt-small">
+        <div class="col-12 font-weight-light">
+          <p class="text-center text-white mb-0 px-4 small">
+            Copyright &copy; <b>2019</b> TNT有限公司
+
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script th:src="@{~/js/jquery-3.3.1.min.js}" src="js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script th:src="@{~/js/bootstrap.min.js}" src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script th:src="@{~/js/js_z.js}" type="text/javascript" src="js/js_z.js"></script>
+  </body>
+</html>

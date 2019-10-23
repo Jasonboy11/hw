@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/reset.css" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/reset.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/them.css" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/them.css" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/thems.css" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/css/thems.css" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/3.jpg" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/TNT1.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/TNT2.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/banner_a.jpg" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/bj.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/caixukun.jpg" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/f_1.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/f_2.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/f_3.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/f_4.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/f_5.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/logo.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/img/tnt.png" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/static/js/js_z.js" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/about.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/about.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/add-product.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/edit-product.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/home.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/index.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/login.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/products.html" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/templates/register.html" charset="GB2312" />
+  </component>
+</project>

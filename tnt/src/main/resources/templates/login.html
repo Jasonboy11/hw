@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>欢迎 - TNT - 登录</title>
+    <link 
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    />
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link th:href="@{~/css/fontawesome.min.css}" herel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link th:href="@{~/css/bootstrap.min.css}" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link th:href="@{~/css/templatemo-style.css}" rel="stylesheet" href="css/templatemo-style.css">
+    
+  </head>
+
+  <body>
+
+    <div class="container tm-mt-big tm-mb-big">
+      <div class="row">
+        <div class="col-12 mx-auto tm-login-col">
+          <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2 class="tm-block-title mb-4">欢迎使用TNT仓库管理系统</h2>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12">
+                <form th:action="@{/user/login_validate}" action="/user/login_validate" method="post" class="tm-login-form">
+                  <h3 style="color: white" align="center">请登录</h3>
+                  <!-- 判error对象是否为null -->
+                  <h3 style="color: white" align="center" th:if="${error!=null}" th:text="${error}"></h3>
+                  <div class="form-group">
+                    <label for="username">用户名</label>
+                    <input
+                      name="username"
+                      type="text"
+                      class="form-control validate"
+                      autocomplete="off"
+                      id="username"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group mt-3">
+                    <label for="password">密码</label>
+                    <input
+                      name="password"
+                      type="password"
+                      class="form-control validate"
+                      id="password"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group mt-4">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-block text-uppercase"
+                    >
+                      登录
+                    </button>
+                  </div>
+                </form>
+                <a th:href="@{/goods/skip_register}" href="register.html" style="color: white" class="mt-5 btn btn-primary btn-block text-uppercase">
+                  注册
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="tm-footer row tm-mt-small">
+      <div class="col-12 font-weight-light">
+        <p class="text-center text-white mb-0 px-4 small">
+          Copyright &copy; <b>2019</b> TNT小组
+          
+        </p>
+      </div>
+    </footer>
+    <script th:src="@{~/js/jquery-3.3.1.min.js}" src="js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script th:src="@{~/js/bootstrap.min.js}" src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+  </body>
+</html>
